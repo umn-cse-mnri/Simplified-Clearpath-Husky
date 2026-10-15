@@ -1,7 +1,7 @@
 # simplified-husky
 
 Run the Clearpath Husky A200 platform stack in Docker on any companion
-computer (Raspberry Pi 5, Jetson, x86). No Clearpath ISO, no systemd.
+computer (Raspberry Pi 5, Jetson, x86). No Clearpath ISO, no systemd. 
 
 Clearpath ships the robot-side packages for amd64 only. This image installs
 everything else from `packages.ros.org` and builds the rest
@@ -169,3 +169,7 @@ MIT, see [LICENSE](LICENSE). The udev rules are adapted from Clearpath's
 `clearpath_robot` (BSD-3-Clause), and `zenoh_router.json5` is adapted from
 `rmw_zenoh` (Apache-2.0). The Clearpath packages the image builds and
 installs keep their own licenses.
+
+
+## Acknowledgments
+Special thanks to Shatayu Avinash Mehta and Sai Surya Vamsi Krishna Kocherla for reviving the Clearpath Husky A200, and thanks to Sai for putting together this very helpful Github repository. 
